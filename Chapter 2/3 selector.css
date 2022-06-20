@@ -1,0 +1,14 @@
+p{
+    color: blue;
+}
+
+.style1{
+    color: red;
+
+}
+
+.style1:active{
+    font-size: 60px;
+    color: purple;
+
+}

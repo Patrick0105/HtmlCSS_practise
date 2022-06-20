@@ -1,0 +1,15 @@
+h1{
+    border: 5px solid blue;
+
+
+}
+p{
+    border-bottom:  10px dotted red;
+    border-top:  10px dotted blue;
+    border-right:  10px dotted blueviolet;
+    border-left:  10px dotted burlywood;
+}
+img{
+    border: 8px dashed red;
+
+}

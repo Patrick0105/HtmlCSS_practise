@@ -1,0 +1,25 @@
+a{ 
+    color: black;
+
+}
+
+a:hover{
+    color: red;
+    font-size: 20px;
+
+}
+
+h1{
+    color:red
+}
+
+h1:hover{
+    color: blue;
+
+}
+
+h1:active{
+    color: plum;
+
+
+}
