@@ -49,3 +49,45 @@ table {
 	border-spacing: 0;
 }
 
+
+.wrap{
+	margin: 0 auto;
+	max-width: 1000px;
+	/* border: 1px solid black; */
+}
+
+.topbar{
+	/* border: 1px solid black; */
+	display: flex;
+	background: #f1f1f1;
+	justify-content: flex-end;
+
+}
+
+.topbar li{
+	float: left;
+	margin: 6px 0;
+	padding-right: 10px;
+}
+
+.topbar a{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.topbar a:hover{
+	color: #00cb9b;
+}
+
+.topbar a img{
+	vertical-align: top;
+	margin-right: 2px;
+}
+
+.facebook{
+	color: #4460a4;
+}
+
+.twitter{
+	color: #00b4ed
+}
