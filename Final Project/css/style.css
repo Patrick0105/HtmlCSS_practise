@@ -72,7 +72,8 @@ table {
 	float: left;
 	margin-top: 6px;
 	margin-bottom: 6px;
-	padding-right: 12px;
+	padding-right: 4px;
+	border-left: 1px solid #ccc;
 }
 
 .topbar a{
@@ -93,7 +94,8 @@ table {
 }
 
 .twitter{
-	color: #00b4ed
+	color: #00b4ed;
+	margin-left: 8px;
 }
 
 .menu h1{
@@ -285,6 +287,10 @@ table {
 	font-weight: 500;
 }
 
+.table tr:hover{
+	background: #f7f7f7
+}
+
 .mark{
 	color: #22b28e;
 	font-weight: 500;
@@ -346,6 +352,7 @@ table {
 
 .btn{
 	background: #00cc99;
+	border: none;
 	padding: 8px 20px;
 	border-radius: 5px;
 	/* display: block; */
@@ -391,7 +398,7 @@ table {
 
 .menu li a:hover{
 	cursor: pointer;
-	color: #4460a4;
+	color: #009771;
 }
 
 .topbar a:hover{
@@ -399,6 +406,15 @@ table {
 	cursor:pointer
 }
 
+.btn:hover{
+	background-color: #22b28e
+}
+
+.red:hover{
+	color: #00cb9b;
+}
+
 .btn,.red:hover{
 	cursor: pointer;
+
 }
