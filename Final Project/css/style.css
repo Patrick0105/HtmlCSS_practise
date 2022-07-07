@@ -188,6 +188,7 @@ table {
 	display: block;
 	height: auto;
 	margin: 0 auto;
+	max-width: 100%;
 }
 
 .course-item h3{
